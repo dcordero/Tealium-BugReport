@@ -20,7 +20,7 @@ Then in XCode press the Run button
 
 After the Application starts a ViewController with a button labeled **"Let's go"** is presented.
 
-Pressing that button push a new ViewController but at this point Tealium gets stuck in an infinite loop in UIApplication+TealiumTracker.m:101
+Pressing that button pushes a new ViewController but at this point Tealium gets stuck in an infinite loop in UIApplication+TealiumTracker.m:101
 
 ```
 (lldb) bt
