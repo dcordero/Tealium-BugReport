@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7DCCEBAF92C3F2D4DBB0528 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA4B56A7130CB5207006441 /* libPods.a */; };
+		FF1270E91AB9654B006FF81F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1270E81AB9654B006FF81F /* main.m */; };
+		FF1270EC1AB9654B006FF81F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1270EB1AB9654B006FF81F /* AppDelegate.m */; };
+		FF1270EF1AB9654B006FF81F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1270EE1AB9654B006FF81F /* ViewController.m */; };
+		FF1270F21AB9654B006FF81F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1270F01AB9654B006FF81F /* Main.storyboard */; };
+		FF1270F41AB9654B006FF81F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1270F31AB9654B006FF81F /* Images.xcassets */; };
+		FF1270F71AB9654B006FF81F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF1270F51AB9654B006FF81F /* LaunchScreen.xib */; };
+		FF1271031AB9654B006FF81F /* TestingTealiumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1271021AB9654B006FF81F /* TestingTealiumTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF1270FD1AB9654B006FF81F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF1270DB1AB9654B006FF81F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF1270E21AB9654B006FF81F;
+			remoteInfo = TestingTealium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14889239503BF00333361E77 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3F0B40EA130937137D46D2F5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6AA4B56A7130CB5207006441 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1270E31AB9654B006FF81F /* TestingTealium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingTealium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1270E71AB9654B006FF81F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1270E81AB9654B006FF81F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF1270EA1AB9654B006FF81F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF1270EB1AB9654B006FF81F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF1270ED1AB9654B006FF81F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF1270EE1AB9654B006FF81F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF1270F11AB9654B006FF81F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF1270F31AB9654B006FF81F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF1270F61AB9654B006FF81F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FF1270FC1AB9654B006FF81F /* TestingTealiumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingTealiumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1271011AB9654B006FF81F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1271021AB9654B006FF81F /* TestingTealiumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingTealiumTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF1270E01AB9654B006FF81F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DCCEBAF92C3F2D4DBB0528 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1270F91AB9654B006FF81F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42FD9C94A2977060CB44F335 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B40EA130937137D46D2F5 /* Pods.debug.xcconfig */,
+				14889239503BF00333361E77 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B37F04563AC8EC6012FE8BE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AA4B56A7130CB5207006441 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF1270DA1AB9654B006FF81F = {
+			isa = PBXGroup;
+			children = (
+				FF1270E51AB9654B006FF81F /* TestingTealium */,
+				FF1270FF1AB9654B006FF81F /* TestingTealiumTests */,
+				FF1270E41AB9654B006FF81F /* Products */,
+				42FD9C94A2977060CB44F335 /* Pods */,
+				B37F04563AC8EC6012FE8BE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF1270E41AB9654B006FF81F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF1270E31AB9654B006FF81F /* TestingTealium.app */,
+				FF1270FC1AB9654B006FF81F /* TestingTealiumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF1270E51AB9654B006FF81F /* TestingTealium */ = {
+			isa = PBXGroup;
+			children = (
+				FF1270EA1AB9654B006FF81F /* AppDelegate.h */,
+				FF1270EB1AB9654B006FF81F /* AppDelegate.m */,
+				FF1270ED1AB9654B006FF81F /* ViewController.h */,
+				FF1270EE1AB9654B006FF81F /* ViewController.m */,
+				FF1270F01AB9654B006FF81F /* Main.storyboard */,
+				FF1270F31AB9654B006FF81F /* Images.xcassets */,
+				FF1270F51AB9654B006FF81F /* LaunchScreen.xib */,
+				FF1270E61AB9654B006FF81F /* Supporting Files */,
+			);
+			path = TestingTealium;
+			sourceTree = "<group>";
+		};
+		FF1270E61AB9654B006FF81F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF1270E71AB9654B006FF81F /* Info.plist */,
+				FF1270E81AB9654B006FF81F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF1270FF1AB9654B006FF81F /* TestingTealiumTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF1271021AB9654B006FF81F /* TestingTealiumTests.m */,
+				FF1271001AB9654B006FF81F /* Supporting Files */,
+			);
+			path = TestingTealiumTests;
+			sourceTree = "<group>";
+		};
+		FF1271001AB9654B006FF81F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF1271011AB9654B006FF81F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF1270E21AB9654B006FF81F /* TestingTealium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1271061AB9654B006FF81F /* Build configuration list for PBXNativeTarget "TestingTealium" */;
+			buildPhases = (
+				BBF970D6937CD2D2ED3831DA /* Check Pods Manifest.lock */,
+				FF1270DF1AB9654B006FF81F /* Sources */,
+				FF1270E01AB9654B006FF81F /* Frameworks */,
+				FF1270E11AB9654B006FF81F /* Resources */,
+				7FBE5A1D0C49F838BA70EF8D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestingTealium;
+			productName = TestingTealium;
+			productReference = FF1270E31AB9654B006FF81F /* TestingTealium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF1270FB1AB9654B006FF81F /* TestingTealiumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1271091AB9654B006FF81F /* Build configuration list for PBXNativeTarget "TestingTealiumTests" */;
+			buildPhases = (
+				FF1270F81AB9654B006FF81F /* Sources */,
+				FF1270F91AB9654B006FF81F /* Frameworks */,
+				FF1270FA1AB9654B006FF81F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF1270FE1AB9654B006FF81F /* PBXTargetDependency */,
+			);
+			name = TestingTealiumTests;
+			productName = TestingTealiumTests;
+			productReference = FF1270FC1AB9654B006FF81F /* TestingTealiumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF1270DB1AB9654B006FF81F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Schibsted Iberica";
+				TargetAttributes = {
+					FF1270E21AB9654B006FF81F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FF1270FB1AB9654B006FF81F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FF1270E21AB9654B006FF81F;
+					};
+				};
+			};
+			buildConfigurationList = FF1270DE1AB9654B006FF81F /* Build configuration list for PBXProject "TestingTealium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF1270DA1AB9654B006FF81F;
+			productRefGroup = FF1270E41AB9654B006FF81F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF1270E21AB9654B006FF81F /* TestingTealium */,
+				FF1270FB1AB9654B006FF81F /* TestingTealiumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF1270E11AB9654B006FF81F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1270F21AB9654B006FF81F /* Main.storyboard in Resources */,
+				FF1270F71AB9654B006FF81F /* LaunchScreen.xib in Resources */,
+				FF1270F41AB9654B006FF81F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1270FA1AB9654B006FF81F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FBE5A1D0C49F838BA70EF8D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBF970D6937CD2D2ED3831DA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF1270DF1AB9654B006FF81F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1270EF1AB9654B006FF81F /* ViewController.m in Sources */,
+				FF1270EC1AB9654B006FF81F /* AppDelegate.m in Sources */,
+				FF1270E91AB9654B006FF81F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1270F81AB9654B006FF81F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1271031AB9654B006FF81F /* TestingTealiumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF1270FE1AB9654B006FF81F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF1270E21AB9654B006FF81F /* TestingTealium */;
+			targetProxy = FF1270FD1AB9654B006FF81F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF1270F01AB9654B006FF81F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF1270F11AB9654B006FF81F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF1270F51AB9654B006FF81F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF1270F61AB9654B006FF81F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF1271041AB9654B006FF81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF1271051AB9654B006FF81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF1271071AB9654B006FF81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F0B40EA130937137D46D2F5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestingTealium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF1271081AB9654B006FF81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14889239503BF00333361E77 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestingTealium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF12710A1AB9654B006FF81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestingTealiumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestingTealium.app/TestingTealium";
+			};
+			name = Debug;
+		};
+		FF12710B1AB9654B006FF81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TestingTealiumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestingTealium.app/TestingTealium";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF1270DE1AB9654B006FF81F /* Build configuration list for PBXProject "TestingTealium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1271041AB9654B006FF81F /* Debug */,
+				FF1271051AB9654B006FF81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1271061AB9654B006FF81F /* Build configuration list for PBXNativeTarget "TestingTealium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1271071AB9654B006FF81F /* Debug */,
+				FF1271081AB9654B006FF81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1271091AB9654B006FF81F /* Build configuration list for PBXNativeTarget "TestingTealiumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF12710A1AB9654B006FF81F /* Debug */,
+				FF12710B1AB9654B006FF81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF1270DB1AB9654B006FF81F /* Project object */;
+}
